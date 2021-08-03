@@ -1,0 +1,3 @@
+### PRACTICING JAVASCRIPT
+```
+Practicing Javascript fundamentals...
