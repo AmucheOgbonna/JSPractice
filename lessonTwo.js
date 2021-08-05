@@ -22,7 +22,7 @@ if (0) {
 var bill = 10.25 + 3.99 + 7.15;
 var tip = bill * 0.15;
 var total = bill + tip;
-var to = total.toFixed(2)
+var to = total.toFixed(2);
 
 console.log("$" + to);
 
@@ -97,7 +97,7 @@ var isActive = false;
 
 if (checkBalance) {
     if (!isActive && balance > 0) {
-        bal = balance.toFixed(2)
+        bal = balance.toFixed(2);
         console.log("Your balance is $" + bal + ".");
     } else if (isActive) {
         console.log("Your account is no longer active");
@@ -181,7 +181,7 @@ var eatsAnimals = false;
  * - (false, false, undefined)
  */
 
-var category = eatsPlants ? (eatsAnimals ? "omnivore" : "herbivore") : (eatsAnimals ? "carnivore" : "undefined")
+var category = eatsPlants ? (eatsAnimals ? "omnivore" : "herbivore") : (eatsAnimals ? "carnivore" : "undefined");
 
 console.log(category);
 //Switch Statement
