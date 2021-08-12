@@ -15,12 +15,14 @@ function call_me(params) {
 var x = ['p0'];
 call_me(x);
 
-
+//HackerRank Challenge
 function gradingStudents(grades) {
-    var gradeArray = [];
-    var result = [];
+    var gradeArray = [];// expected result;  sum  each element in the array to [1,2,3,4,5]
+    var result = [];//expected result; final answer to the function
     for (var x = 0; x < grades.length; x++) {
+        //expected result; grades[x]
         for (var y = 1; y < 6; y++) {
+            //expected result; [1,2,3,4,5]
             gradeArray.push(y + grades[x]);
 
         }
