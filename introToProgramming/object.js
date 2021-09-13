@@ -9,7 +9,7 @@ var car = {
 console.log(car.name);
 
 //Using Object Constructors
-var person = new Object();
+var person = new object();
 person.firstname = "AMuche";
 person.lastname = "Ogbonna";
 person.getFullname = function () {
