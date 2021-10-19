@@ -33,4 +33,10 @@ function Circle(radius) {
     };
 }
 const circle2 = new Circle(1);
+console.log(Circle.name);
+console.log(Circle.length);
+console.log(Circle.constructor);
 console.log(circle2.constructor);
+
+//Circle2, is the same with the function below
+/*     */
