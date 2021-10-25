@@ -1,0 +1,19 @@
+{
+    "name": "nodeapis",
+    "version": "1.0.0",
+    "description": "A book libray with node",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "dependencies": {
+        "nodemon": "^2.0.14"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "nodemon",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Amuche",
+    "license": "ISC"
+}
