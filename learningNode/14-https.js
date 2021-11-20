@@ -3,17 +3,22 @@ const http = require('http');
 const server = http.createServer((req, res)=>{
     if(req.url === '/'){
         res.end('WElcome!')
-    }if(res.url === '/about'){
+    }
+    if(res.url === '/about'){
         res.end('Welcome! Our short history')
     }
-    res.end(`
-    <h1> OOps1</h1>
-    <p> We cannnot seem to fine page</p>
-    <a href="/">Back home </a>
+    else{
+        res.end(`
+            <h1> OOps1</h1>
+            <p> We cannnot seem to fine page</p>
+            <a href="/">Back home </a>
     `)
+    }
+    // res.write('Hello World! The home page');
     
-    res.write('Hello World! The home page');
-    res.end();
+    
+    
+    // res.end();
 });
 
 server.listen(5000);
